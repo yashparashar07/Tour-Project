@@ -239,7 +239,7 @@ form label:hover {
 }
 
 .box{
-  transition: 0.8s;
+  transition: 0.8s ;
 }
 
 .home .content {
@@ -267,12 +267,14 @@ form label:hover {
   -ms-grid-columns: (minmax(29rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   gap: 1.5rem;
-  transition: 5s;
 }
 
 .category .box-container .box {
   text-align: center;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content horizontally */
 }
 .category .box-container .box img {
   height: 20rem;
@@ -291,6 +293,12 @@ form label:hover {
   padding: 1rem 0;
   line-height: 2;
 }
+
+.category .box-container .box a.btn {
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+
 .packages {
   background: #eee;
 }
