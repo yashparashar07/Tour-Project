@@ -238,6 +238,10 @@ form label:hover {
   padding: 2rem 9%;
 }
 
+.box{
+  transition: 0.8s;
+}
+
 .home .content {
   width: 50rem;
 }
@@ -263,6 +267,7 @@ form label:hover {
   -ms-grid-columns: (minmax(29rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   gap: 1.5rem;
+  transition: 5s;
 }
 
 .category .box-container .box {
